@@ -1,0 +1,15 @@
+.userInfo{border:1px solid #C7C1C1;padding: 5px;margin-bottom: 20px; background:#F4F4F4; color: #fff; overflow: hidden; }
+.userInfo span {font-size: 25px;
+color: #ff0000;
+float: left;
+padding: 10px 0}
+.userInfo h2 {margin:0}
+.item.item-body{background:#F0F3F8}
+.item .badge{right:auto; left:10px}
+.app-notification{padding-left:25px}
+.hide{display:none}
+.userid a {color:#000; text-decoration:underline}
+.item-thumbnail-left img {border-radius:8px}
+.location{color:#ff0000}
+
+
