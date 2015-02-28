@@ -38,7 +38,7 @@ background: #f7f7f7}
 /* Artist List Styles */
 
 .artistlist {
-  background: #11c1f3;;
+
  
   margin: 0 auto;
   margin-bottom: 30px;
@@ -124,7 +124,21 @@ padding: 10px;
 margin-top: 10px;}
 
 .bar.bar-dark {background-color: #11c1f3;}
-.item-icon-right{background:none; padding:0;padding-left: 50px;}
+
 .ion-ios-videocam:before {
 content: "\f4cd";
 }
+.item h2{margin:0}
+
+.artistlist li:nth-child(even) {
+background:#d5d3d3;
+
+
+}
+
+.artistlist li:nth-child(odd) {
+background:#11c1f3;
+
+
+}
+
