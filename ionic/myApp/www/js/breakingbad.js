@@ -112,9 +112,7 @@ $.ajax({
 });
 }
 ajaxcall();
-setInterval(function(){ 
-ajaxcall();
-}, 60000);	
+	
 if($(".userInfo").length == 0) {
 $(".item-body").html('<div id="userInfo" class="userInfo"><span>No Notification to View</span>');
 }
