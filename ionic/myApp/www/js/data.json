@@ -1,0 +1,27 @@
+[
+  {
+    "name":"Ankur",
+    "Policy":"2015-V3503364-FPS",
+	"shortname":"ankur",
+    "Coveragetype":"rerewr"
+     },
+	 {
+    "name":"sachin",
+    "Policy":"2015-V3507674-FPS",
+	"shortname":"sachin",
+    "Coveragetype":"dsfdsf"
+     },
+	 {
+    "name":"Gunjan",
+    "Policy":"2015-V3507388-FPS",
+	"shortname":"Gunjan",
+    "Coveragetype":"fsdf"
+     },
+	  {
+    "name":"Pinkoo",
+    "Policy":"2015-V3507114-FPS",
+	"shortname":"Pinkoo",
+    "Coveragetype":"fsdf"
+     }
+  
+]

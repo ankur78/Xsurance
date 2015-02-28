@@ -1,15 +1,45 @@
-<ion-view view-title="SEARCH">
+<ion-view view-title="Search">
   <ion-content>
    
      
-       <div class="list list-inset">
+  
+
+    <body  ng-app="myApp">
+ 
+<div class="main" ng-controller = "MyController">
+ <div class="list list-inset">
   <label class="item item-input">
     <i class="icon ion-search placeholder-icon"></i>
-    <input type="text" placeholder="Search">
+   <input style="border:none" ng-model="query" placeholder="Search for artists" autofocus>
   </label>
-</div>
+  
+    <label id="searchinfo"class="formgroup">By:
+      <select ng-model="artistOrder">
+        <option value="Policy">Policy Number</option>
+        <option value="name">Name</option>
+      </select>
+    </label>
 
-        
+    <label style="margin-left:10px" class="formgroup">
+      <input type="radio" ng-model="direction" name="direction" checked>
+      ascending
+     </label>
+    <label class="formgroup">
+      <input type="radio" ng-model="direction" name="direction" value="reverse">
+      descending
+    </label>
+</div>
+  <ul class="artistlist">
+    <li class="artist cf" ng-repeat="item in artists | filter: query | orderBy: artistOrder:direction">
+      <img ng-src="img/{{item.shortname}}_tn.jpg" alt="Photo of {{item.name}}">
+      <div class="info">
+        <p><strong>Policy Number</strong> :{{item.Policy}}</p>
+        <p><strong>Name</strong>:{{item.name}}</p>
+      </div>
+    </li>
+  </ul>
+</div>
+</body>    
     
     
   </ion-content>
