@@ -2,7 +2,7 @@
 .userInfo span {font-size: 25px;
 color: #ff0000;
 float: left;
-padding: 10px 0}
+padding: 10px 0; width:100%}
 .userInfo h2 {margin:0}
 .item.item-body{background:#F0F3F8}
 .item .badge{right:auto; left:10px}
@@ -11,5 +11,13 @@ padding: 10px 0}
 .userid a {color:#000; text-decoration:underline}
 .item-thumbnail-left img {border-radius:8px}
 .location{color:#ff0000}
+.ion-search:before {
+content: "\f21f";
+}
+.userInfo span.policyInfoDetails , .userInfo span.datetimeDetails , .userInfo cite.locatioInfo {display: block;
+color: #000;
+font-size: 18px; font-weight:bold}
+.userInfo .policyInfoDetails cite , .userInfo .datetimeDetails cite {font-weight:normal}
+.userInfo a.location {color:#000; font-weight:normal}
 
 
