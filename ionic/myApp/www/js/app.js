@@ -56,12 +56,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
       }
     })
-	.state('tab.facts3', {
-      url: "/facts3",
+	.state('tab.claimpage', {
+      url: "/claimpage",
       views: {
         'tab-dash': {
-          templateUrl: "templates/facts3.html",
-		  controller: 'DashCtrl'
+          templateUrl: "templates/claimpage.html"
+		  //controller: 'DashCtrl'
         }
       }
     })
