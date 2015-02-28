@@ -10,6 +10,37 @@
           </div>
         </label>
       </ion-item>
+       <ion-item class="item-toggle">
+	          Auto Refresh
+	          <label class="toggle">
+	            <input type="checkbox" ng-model="settings.enableRefresh">
+	            <div class="track">
+	              <div class="handle"></div>
+	            </div>
+	          </label>
+      </ion-item>
+       <ion-item class="item-select">
+       <div class="input-label">
+		Refresh Interval (secs)
+		</div>
+
+    <select>
+    <option selected>30</option>
+      <option >60</option>
+      <option >90</option>
+      <option>120</option>
+    </select>
+
+</ion-item>
+
+<ion-item class="range-positive">
+Notifications
+<div class="range range-positive">
+    <i class="icon ion-ios7-lightbulb-outline"></i>
+    <input type="range" name="volume" min="0" max="100" value="33">
+    <i class="icon ion-ios7-lightbulb-outline"></i>
+  </div>
+</ion-item>
     </ion-list>
   </ion-content>
 </ion-view>
