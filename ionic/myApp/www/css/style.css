@@ -19,5 +19,16 @@ color: #000;
 font-size: 18px; font-weight:bold}
 .userInfo .policyInfoDetails cite , .userInfo .datetimeDetails cite {font-weight:normal}
 .userInfo a.location {color:#000; font-weight:normal}
+.list h2 strong{background: #bcbbbb;
+padding: 10px;
+float: left;
+width: 30%;color:#fff}
+.list h2 span{padding: 10px;
+float: left;
+width: 70%;background: #d5d3d3; color:#000}
+.list h2 a span {text-decoration:underline}
+.col  {border: 1px solid #ddd;
+border-radius: 2px;
+background: #f7f7f7}
 
 
